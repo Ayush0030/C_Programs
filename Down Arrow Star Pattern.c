@@ -7,7 +7,7 @@ for(i=1;i<=5;i++){
 		if(j<=i||j>=10-i)		
 		printf("*");	
 		else
-		printf(" 2");
+		printf(" ");
 	}
 printf("\n");
 }
