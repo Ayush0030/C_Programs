@@ -32,7 +32,6 @@ int array[height][width];
 	}
 
 
-	
 	printf("The Greatest Element is %d",greatest);
 	
 	
