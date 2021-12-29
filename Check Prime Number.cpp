@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <iostream>  
+using namespace std;
 int main(){
 	int numb;
-	scanf("%d",&numb);
+	cin>>numb;
 	
 	int i;
 	int j=0;
@@ -11,8 +12,8 @@ int main(){
 		
 	}
 	if(j>0)
-	printf("Not Prime");
+	cout<<"Not Prime";
 	else
-	printf("Prime");
+	cout<<"Prime";
 }
 
