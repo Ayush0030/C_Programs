@@ -14,7 +14,7 @@ int main(){
 	}
 	
 	printf("-----------");
-	printf("\t");
+	printf("\n");
 	
 		for(i=1;i<=5;i++){
 		for(j=1;j<=9;j++){
