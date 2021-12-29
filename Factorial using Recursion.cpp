@@ -1,14 +1,15 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int Factorial(int);
 int main(){
 	int n;
-	printf("Enter Number");
-	scanf("%d",&n);
-	printf("%d",Factorial(n));
+	cout<<"Enter Number";
+	cin>>n;
+	cout<<Factorial(n);
 }
 int Factorial(int n){
 	if(n-1>0){
-		printf("%d\n",n);
+		cout<<n<<endl;
 		return n * Factorial(n-1);
 	}
 	else{
